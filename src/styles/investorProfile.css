@@ -1,0 +1,148 @@
+.profileContainer {
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    height: 200vh;
+    max-width: 100%;
+    background-color: #bdf09433;
+    padding: 1rem 3rem;
+    box-sizing: border-box;
+    color: #2a2a2a;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 2px 15px 15px rgba(15, 15, 15, 0.26);
+    padding: 1rem;
+
+    width: 30%;
+    margin: 0 1rem;
+    font-family: "Poppins";
+}
+
+.invIcon {
+    color: #009470;
+}
+
+.profilePhoto {
+    /* width: 25rem; */
+    /* height:30%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-bottom: 0.4px solid #a2a2a2;
+}
+
+.profilePhoto>img {
+    /* margin: 0.8rem; */
+    height: 7.6rem;
+    width: 7.6rem;
+    border-radius: 100%;
+}
+
+.invtype {
+    text-align: center;
+    /* margin: 0; */
+}
+
+.invname {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.bio {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.4px solid #a2a2a2;
+}
+
+.bioHead {
+    border-top: 0.4px solid #a2a2a2;
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+}
+
+.bioHead>button {
+    cursor: pointer;
+}
+
+.bioHeaadData,
+.compHead,
+.investorHead {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 0.8rem;
+    color: #009470;
+}
+
+.editicon {
+    margin-top: 0.9rem;
+    font-size: 1.7rem;
+    background-color: white;
+    border: none;
+}
+
+.companyName {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+/* .companyinfo {
+    border-bottom: 0.4px solid #a2a2a2;
+} */
+
+/* .companyinfo>p{
+    margin-top: 0;
+} */
+.invwebsitelink {
+    cursor: pointer;
+    transition: ease 0.45s;
+    /* padding-bottom: 1rem; */
+    /* border-bottom: 0.4px solid #a2a2a2; */
+}
+
+.invwebsitelink:hover {
+    color: #009470;
+
+    font-weight: bold;
+}
+
+.mailicon {
+    font-size: large;
+}
+
+.startupresume:hover {
+    background-color: rgb(4, 84, 4);
+}
+
+.invright {
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins";;
+
+    width: 80%;
+    background-color: white;
+    box-shadow: 2px 15px 15px rgba(15, 15, 15, 0.26);
+    padding: 1.2rem 1rem;
+    box-sizing: border-box;
+}
+
+.invrightHead {
+    color: #009470;
+    font-family: "Poppins";
+    font-size: 1.67rem;
+}
+
+.invright>div {
+    margin: 1rem;
+}
+
+.headers {
+    font-weight: bold;
+    margin-top: 1rem;
+}

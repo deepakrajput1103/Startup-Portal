@@ -1,0 +1,42 @@
+.card221 {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(34, 33, 33);
+    width: 58rem;
+    height: 95rem;
+    font-family: 'Poppins';
+    transition: all 0.65s;
+    box-shadow: 0 5px 5px rgba(15, 15, 15, 0.26);
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 2vh;
+    margin-top: 5vh;
+    padding: 5vh;
+}
+
+.blogs {
+    display: flex;
+    justify-content: center;
+    background: #c7f2a433;
+}
+
+.Title {
+    font-size: 1.5rem;
+    color: rgb(16, 16, 16);
+    padding-bottom: 0.6rem;
+}
+
+.Content {
+    font-size: 0.8rem;
+    color: rgb(32, 32, 32);
+
+    /* border-bottom: 1.55px solid rgb(94, 95, 92);
+  padding: 0.5rem; */
+}
+
+.blogimg {
+    width: 53rem;
+    height: 80rem;
+}

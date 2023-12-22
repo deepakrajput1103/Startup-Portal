@@ -1,0 +1,62 @@
+.discussPage{
+    font-family: "Poppins";
+}
+.disscussContent{
+    display: flex;
+    /* flex-direction: column; */
+}
+
+h1{
+   text-align:  center;
+}
+.discussChannel1{
+    margin-left: 27%;
+    height: 100vh;
+    background-color: #e6f2ff;
+    width: 75vw;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+   
+}
+.discussChannel2{
+    margin-left: 27%;
+    height: 100vh;
+    background-color: #c7f2a433;
+    width: 75vw;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+   
+}
+.discussChannel3{
+    margin-left: 27%;
+    height: 100vh;
+    background-color: #fafae3;
+    width: 75vw;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+   
+}
+.discussChannel4{
+    margin-left: 27%;
+    height: 100vh;
+    background-color: #f9c3c333;
+    width: 75vw;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+   
+}
+.discussChannel5{
+    margin-left: 27%;
+    height: 100vh;
+    background-color: #a58be733;
+    width: 75vw;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+   
+}
+

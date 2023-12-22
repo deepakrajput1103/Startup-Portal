@@ -1,0 +1,67 @@
+h1{
+  font-size: 1.8rem;
+  margin-top: 0vh !important;
+}
+.discussHead{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.sidebarIcon{
+  font-size: 3rem;
+  cursor: pointer;
+  color: #008C6A;
+
+}
+.sidebar {
+  width: 23vw;
+  /* background-color: #c7f2a433; */
+  box-sizing: border-box;
+  height: 80vh;
+  margin-left: 2rem;
+  /* display: flex; */
+  position: fixed;
+  top:0;
+  /* flex-direction: column; */
+  /* border-radius: 10px; */
+  /* border: 1px solid #009470; */
+}
+.sidebarOptions {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 0;
+  list-style: none;
+  font-size: 1.2rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  cursor: pointer;
+ 
+}
+.sidebarOptions>li{
+    border: 0.1rem solid #DDE2E5;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 3%;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    height: 30%;
+    transition: 0.5s ease;
+    /* justify-content: space-evenly; */
+}
+.sidebarOptions>li:hover{
+    background-color: #58be0433;
+}
+.sidebarOptions>li>img{
+    padding-right: 2rem;
+    margin-right: 2rem;
+    height: 4rem;
+    width: 5.5rem;
+    border-right:  0.1rem solid #DDE2E5;
+}
